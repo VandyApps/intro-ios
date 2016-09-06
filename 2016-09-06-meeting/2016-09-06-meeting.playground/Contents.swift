@@ -80,8 +80,12 @@ let genericPerson: String = "friend-o"
 // TODO: Declare a function called `greet` that says "Hello, world!".
 
 
+//greet()
+
 // TODO: Declare a function called `greetFriend` that accepts a string parameter called `friend`.
 
+
+//greetFriend("Ethan")
 
 // TODO: Declare a function called `even` that accepts an integer parameter and returns a true boolean if the number is even.
 
