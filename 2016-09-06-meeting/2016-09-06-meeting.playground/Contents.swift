@@ -1,7 +1,7 @@
 /*
  Created by Ethan Look. Demonstrated on September 6, 2016.
  
- For more information, check out https://developer.apple.com/library/ios/documentation/Swift/Conceptual/Swift_Programming_Language/GuidedTour.html
+ To learn more about Swift, check out https://developer.apple.com/library/ios/documentation/Swift/Conceptual/Swift_Programming_Language/GuidedTour.html
  */
 
 // This is a comment in our code.
@@ -54,7 +54,7 @@ for color in faveColors {
 //    }
 }
 
-// TODO: Create an optional integer variable called optionalNumber, and don't initialize it.
+// TODO: Create an optional integer variable called `optionalNumber`, and don't initialize it.
 
 
 //if let number = optionalNumber {
@@ -63,7 +63,7 @@ for color in faveColors {
 //    print("The number does not exist. :(")
 //}
 
-// TODO: Initialize the value of optionalNumber!
+// TODO: Initialize the value of `optionalNumber`!
 
 
 //if let number = optionalNumber {
@@ -71,3 +71,22 @@ for color in faveColors {
 //} else {
 //    print("The number does not exist. :(")
 //}
+
+// TODO: Create an optional string called `optionalFriend`, and don't initialize it.
+
+let genericPerson: String = "friend-o"
+//print("Hey there, \(optionalFriend ?? genericPerson).")
+
+// TODO: Declare a function called `greet` that says "Hello, world!".
+
+
+// TODO: Declare a function called `greetFriend` that accepts a string parameter called `friend`.
+
+
+// TODO: Declare a function called `even` that accepts an integer parameter and returns a true boolean if the number is even.
+
+
+//even(11)
+//even(12)
+
+// TODO: Declare a class called `Car` with the attributes `color` (string), `numberOfWheels` (integer), `numberOfDoors` (integer), `hybrid` (boolean), and a member function `simpleDescription` that returns a string.
