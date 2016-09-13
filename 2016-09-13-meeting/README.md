@@ -2,7 +2,7 @@
 
 In this meeting, we're going to create our first iOS app with a simple user interface. Here's the goal:
 
-![](https://raw.githubusercontent.com/VandyApps/intro-ios/master/2016-09-13-meeting/images/full.png "Final Product")
+![](./images/full.png "Final Product" =250x)
 
 ## Setting Up the Project
 
