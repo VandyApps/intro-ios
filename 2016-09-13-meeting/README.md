@@ -2,7 +2,7 @@
 
 In this meeting, we're going to create our first iOS app with a simple user interface. Here's the goal:
 
-![](https://raw.githubusercontent.com/VandyApps/intro-ios/master/2016-09-13-meeting/images/full.png "Final Product" =250x)
+![](https://raw.githubusercontent.com/VandyApps/intro-ios/master/2016-09-13-meeting/images/full.png "Final Product")
 
 ## Setting Up the Project
 
@@ -22,14 +22,20 @@ In this meeting, we're going to create our first iOS app with a simple user inte
 
 1. Navigate to `Main.storyboard`. You should see a white box titled `View Controller`.
 2. In the upper righthand corner, open the right panel if it isn't already visible.
+![](https://raw.githubusercontent.com/VandyApps/intro-ios/master/2016-09-13-meeting/images/utilities.png "Utilities")
 3. Filter for `button` at the bottom.
+![](https://raw.githubusercontent.com/VandyApps/intro-ios/master/2016-09-13-meeting/images/buttonfilter.png "Filter for Button")
 4. Drag a button on the `View Controller`.
 5. Click the `Add New Allignment Constraint` at the bottom.
   * Check the boxes for `Horizontally in Container` and `Vertically in Container`.
   * Click `Add 2 Constraints`.
+![](https://raw.githubusercontent.com/VandyApps/intro-ios/master/2016-09-13-meeting/images/constraints.png "Adding Constraints")
 6. Click the `Resolve Auto Layout Issues` icon. Select `Update Frames`.
-7. Click the icon in the upper right corner to `Show the Assistant Editor`.
+![](https://raw.githubusercontent.com/VandyApps/intro-ios/master/2016-09-13-meeting/images/updateframes.png "Update Frames")
+7. Click the overlapping circles icon in the upper right corner to `Show the Assistant Editor`.
+![](https://raw.githubusercontent.com/VandyApps/intro-ios/master/2016-09-13-meeting/images/assistanteditor.png "Assistant Editor")
 8. Press the `Option` button on your keyboard and drag the button over to line 22 in the `ViewController.swift` code. Choose `Connection > Action` and call it `buttonPressed`. Click `Connect`.
+![](https://raw.githubusercontent.com/VandyApps/intro-ios/master/2016-09-13-meeting/images/buttonaction.png "Button Action")
 9. Inside the `buttonPressed` function, `print("I've been pressed!")`.
 10. Run your app with the play button in the upper left. You may have to choose a Simulator device to the right of the play button.
   * You can stop the app with the stop button (to the right of the play button).
@@ -40,9 +46,11 @@ In this meeting, we're going to create our first iOS app with a simple user inte
 2. Center the label. (Just like the button!)
 3. Control drag from the label to the button. Select vertical spacing when prompted.
 4. On the right side, select the `Attributes Inspector`. With the label selected, change the text to "Anchor down!".
+![](https://raw.githubusercontent.com/VandyApps/intro-ios/master/2016-09-13-meeting/images/attributesinpsector.png "Attributes Inspector") ![](https://raw.githubusercontent.com/VandyApps/intro-ios/master/2016-09-13-meeting/images/anchordowntext.png "Change Label Text")
 5. After all of this is done, `Update Frames` like before.
 6. Again, open the `Assistant Editor`.
 7. Control drag the label to line 12. Make it an outlet called `spiritLabel`.
+![](https://raw.githubusercontent.com/VandyApps/intro-ios/master/2016-09-13-meeting/images/labeloutlet.png "Label Outlet")
 8. Change the code in `buttonPressed` to the following:
 ```
 if (spiritLabel.text == "Anchor down!") {
