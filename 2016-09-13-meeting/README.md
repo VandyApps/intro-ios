@@ -18,7 +18,7 @@ In this meeting, we're going to create our first iOS app with a simple user inte
   * Don't use Core Data.
 5. Click `Next` and choose a location to save your project. If you'd like, create a Git repository.
 
-## Let's make buttons!
+## Let's make a button!
 
 1. Navigate to `Main.storyboard`. You should see a white box titled `View Controller`.
 2. In the upper righthand corner, open the right panel if it isn't already visible.
