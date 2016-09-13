@@ -1,0 +1,507 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AA5728C21D88605B002E22B9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA5728C11D88605B002E22B9 /* AppDelegate.swift */; };
+		AA5728C41D88605B002E22B9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA5728C31D88605B002E22B9 /* ViewController.swift */; };
+		AA5728C71D88605B002E22B9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA5728C51D88605B002E22B9 /* Main.storyboard */; };
+		AA5728C91D88605C002E22B9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA5728C81D88605C002E22B9 /* Assets.xcassets */; };
+		AA5728CC1D88605C002E22B9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA5728CA1D88605C002E22B9 /* LaunchScreen.storyboard */; };
+		AA5728D71D88605C002E22B9 /* Spiritr_completedTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA5728D61D88605C002E22B9 /* Spiritr_completedTests.swift */; };
+		AA5728E21D88605C002E22B9 /* Spiritr_completedUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA5728E11D88605C002E22B9 /* Spiritr_completedUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AA5728D31D88605C002E22B9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AA5728B61D88605B002E22B9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AA5728BD1D88605B002E22B9;
+			remoteInfo = "Spiritr-completed";
+		};
+		AA5728DE1D88605C002E22B9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AA5728B61D88605B002E22B9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AA5728BD1D88605B002E22B9;
+			remoteInfo = "Spiritr-completed";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AA5728BE1D88605B002E22B9 /* Spiritr-completed.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Spiritr-completed.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA5728C11D88605B002E22B9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AA5728C31D88605B002E22B9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AA5728C61D88605B002E22B9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AA5728C81D88605C002E22B9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AA5728CB1D88605C002E22B9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AA5728CD1D88605C002E22B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA5728D21D88605C002E22B9 /* Spiritr-completedTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Spiritr-completedTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA5728D61D88605C002E22B9 /* Spiritr_completedTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Spiritr_completedTests.swift; sourceTree = "<group>"; };
+		AA5728D81D88605C002E22B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA5728DD1D88605C002E22B9 /* Spiritr-completedUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Spiritr-completedUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA5728E11D88605C002E22B9 /* Spiritr_completedUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Spiritr_completedUITests.swift; sourceTree = "<group>"; };
+		AA5728E31D88605C002E22B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AA5728BB1D88605B002E22B9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA5728CF1D88605C002E22B9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA5728DA1D88605C002E22B9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AA5728B51D88605B002E22B9 = {
+			isa = PBXGroup;
+			children = (
+				AA5728C01D88605B002E22B9 /* Spiritr-completed */,
+				AA5728D51D88605C002E22B9 /* Spiritr-completedTests */,
+				AA5728E01D88605C002E22B9 /* Spiritr-completedUITests */,
+				AA5728BF1D88605B002E22B9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AA5728BF1D88605B002E22B9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AA5728BE1D88605B002E22B9 /* Spiritr-completed.app */,
+				AA5728D21D88605C002E22B9 /* Spiritr-completedTests.xctest */,
+				AA5728DD1D88605C002E22B9 /* Spiritr-completedUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AA5728C01D88605B002E22B9 /* Spiritr-completed */ = {
+			isa = PBXGroup;
+			children = (
+				AA5728C11D88605B002E22B9 /* AppDelegate.swift */,
+				AA5728C31D88605B002E22B9 /* ViewController.swift */,
+				AA5728C51D88605B002E22B9 /* Main.storyboard */,
+				AA5728C81D88605C002E22B9 /* Assets.xcassets */,
+				AA5728CA1D88605C002E22B9 /* LaunchScreen.storyboard */,
+				AA5728CD1D88605C002E22B9 /* Info.plist */,
+			);
+			path = "Spiritr-completed";
+			sourceTree = "<group>";
+		};
+		AA5728D51D88605C002E22B9 /* Spiritr-completedTests */ = {
+			isa = PBXGroup;
+			children = (
+				AA5728D61D88605C002E22B9 /* Spiritr_completedTests.swift */,
+				AA5728D81D88605C002E22B9 /* Info.plist */,
+			);
+			path = "Spiritr-completedTests";
+			sourceTree = "<group>";
+		};
+		AA5728E01D88605C002E22B9 /* Spiritr-completedUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AA5728E11D88605C002E22B9 /* Spiritr_completedUITests.swift */,
+				AA5728E31D88605C002E22B9 /* Info.plist */,
+			);
+			path = "Spiritr-completedUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AA5728BD1D88605B002E22B9 /* Spiritr-completed */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA5728E61D88605C002E22B9 /* Build configuration list for PBXNativeTarget "Spiritr-completed" */;
+			buildPhases = (
+				AA5728BA1D88605B002E22B9 /* Sources */,
+				AA5728BB1D88605B002E22B9 /* Frameworks */,
+				AA5728BC1D88605B002E22B9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Spiritr-completed";
+			productName = "Spiritr-completed";
+			productReference = AA5728BE1D88605B002E22B9 /* Spiritr-completed.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AA5728D11D88605C002E22B9 /* Spiritr-completedTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA5728E91D88605C002E22B9 /* Build configuration list for PBXNativeTarget "Spiritr-completedTests" */;
+			buildPhases = (
+				AA5728CE1D88605C002E22B9 /* Sources */,
+				AA5728CF1D88605C002E22B9 /* Frameworks */,
+				AA5728D01D88605C002E22B9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AA5728D41D88605C002E22B9 /* PBXTargetDependency */,
+			);
+			name = "Spiritr-completedTests";
+			productName = "Spiritr-completedTests";
+			productReference = AA5728D21D88605C002E22B9 /* Spiritr-completedTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AA5728DC1D88605C002E22B9 /* Spiritr-completedUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA5728EC1D88605C002E22B9 /* Build configuration list for PBXNativeTarget "Spiritr-completedUITests" */;
+			buildPhases = (
+				AA5728D91D88605C002E22B9 /* Sources */,
+				AA5728DA1D88605C002E22B9 /* Frameworks */,
+				AA5728DB1D88605C002E22B9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AA5728DF1D88605C002E22B9 /* PBXTargetDependency */,
+			);
+			name = "Spiritr-completedUITests";
+			productName = "Spiritr-completedUITests";
+			productReference = AA5728DD1D88605C002E22B9 /* Spiritr-completedUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AA5728B61D88605B002E22B9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Ethan Look";
+				TargetAttributes = {
+					AA5728BD1D88605B002E22B9 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					AA5728D11D88605C002E22B9 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = AA5728BD1D88605B002E22B9;
+					};
+					AA5728DC1D88605C002E22B9 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = AA5728BD1D88605B002E22B9;
+					};
+				};
+			};
+			buildConfigurationList = AA5728B91D88605B002E22B9 /* Build configuration list for PBXProject "Spiritr-completed" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AA5728B51D88605B002E22B9;
+			productRefGroup = AA5728BF1D88605B002E22B9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AA5728BD1D88605B002E22B9 /* Spiritr-completed */,
+				AA5728D11D88605C002E22B9 /* Spiritr-completedTests */,
+				AA5728DC1D88605C002E22B9 /* Spiritr-completedUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AA5728BC1D88605B002E22B9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA5728CC1D88605C002E22B9 /* LaunchScreen.storyboard in Resources */,
+				AA5728C91D88605C002E22B9 /* Assets.xcassets in Resources */,
+				AA5728C71D88605B002E22B9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA5728D01D88605C002E22B9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA5728DB1D88605C002E22B9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AA5728BA1D88605B002E22B9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA5728C41D88605B002E22B9 /* ViewController.swift in Sources */,
+				AA5728C21D88605B002E22B9 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA5728CE1D88605C002E22B9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA5728D71D88605C002E22B9 /* Spiritr_completedTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA5728D91D88605C002E22B9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA5728E21D88605C002E22B9 /* Spiritr_completedUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AA5728D41D88605C002E22B9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AA5728BD1D88605B002E22B9 /* Spiritr-completed */;
+			targetProxy = AA5728D31D88605C002E22B9 /* PBXContainerItemProxy */;
+		};
+		AA5728DF1D88605C002E22B9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AA5728BD1D88605B002E22B9 /* Spiritr-completed */;
+			targetProxy = AA5728DE1D88605C002E22B9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AA5728C51D88605B002E22B9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AA5728C61D88605B002E22B9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AA5728CA1D88605C002E22B9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AA5728CB1D88605C002E22B9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AA5728E41D88605C002E22B9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AA5728E51D88605C002E22B9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AA5728E71D88605C002E22B9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Spiritr-completed/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.lookfamily.ethan.Spiritr-completed";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		AA5728E81D88605C002E22B9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Spiritr-completed/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.lookfamily.ethan.Spiritr-completed";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		AA5728EA1D88605C002E22B9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Spiritr-completedTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.lookfamily.ethan.Spiritr-completedTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Spiritr-completed.app/Spiritr-completed";
+			};
+			name = Debug;
+		};
+		AA5728EB1D88605C002E22B9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Spiritr-completedTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.lookfamily.ethan.Spiritr-completedTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Spiritr-completed.app/Spiritr-completed";
+			};
+			name = Release;
+		};
+		AA5728ED1D88605C002E22B9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Spiritr-completedUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.lookfamily.ethan.Spiritr-completedUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Spiritr-completed";
+			};
+			name = Debug;
+		};
+		AA5728EE1D88605C002E22B9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Spiritr-completedUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.lookfamily.ethan.Spiritr-completedUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Spiritr-completed";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AA5728B91D88605B002E22B9 /* Build configuration list for PBXProject "Spiritr-completed" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA5728E41D88605C002E22B9 /* Debug */,
+				AA5728E51D88605C002E22B9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA5728E61D88605C002E22B9 /* Build configuration list for PBXNativeTarget "Spiritr-completed" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA5728E71D88605C002E22B9 /* Debug */,
+				AA5728E81D88605C002E22B9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		AA5728E91D88605C002E22B9 /* Build configuration list for PBXNativeTarget "Spiritr-completedTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA5728EA1D88605C002E22B9 /* Debug */,
+				AA5728EB1D88605C002E22B9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		AA5728EC1D88605C002E22B9 /* Build configuration list for PBXNativeTarget "Spiritr-completedUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA5728ED1D88605C002E22B9 /* Debug */,
+				AA5728EE1D88605C002E22B9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AA5728B61D88605B002E22B9 /* Project object */;
+}
