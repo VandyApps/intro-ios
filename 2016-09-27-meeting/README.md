@@ -1,4 +1,4 @@
-# Meeting, September 20, 2016
+# Meeting, September 27, 2016
 
 In this meeting, I'm challenging you to create an application based purely off of screenshots. This app is called *Orderer*. I've provided any images you need, and it's your job to implement the result.
 
